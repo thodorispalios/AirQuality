@@ -74,7 +74,7 @@ export default {
       this.toggleActive = value;
       if (this.toggleActive) {
         window.setInterval(() => {
-            this.apiCall()
+          this.apiCall()
         }, 10000)
       } else return
     },
